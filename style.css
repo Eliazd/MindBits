@@ -1,0 +1,68 @@
+body {
+    background-color: lightyellow;
+    font-family: Arial, sans-serif;
+}
+ 
+/* Ο μεγάλος κεντρικός τίτλος */
+h1 {
+    color: red;
+    font-size: 40px;
+}
+ 
+
+
+
+
+h2 {
+    color: #3772a1;
+    background-color: #fedb51;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+
+
+
+h3 {
+    color: gray;
+}
+ 
+
+p {
+
+    color: #3772a1 ;
+}
+
+li {
+
+
+    color: #3772a1;
+}
+
+
+
+
+
+
+/* Οι μικρότεροι τίτλοι */
+
+
+.koumpi {
+    display: inline-block;
+    background-color: #ff4757; /* Ένα ωραίο κόκκινο/κοραλί χρώμα */
+    color: white;
+    padding: 15px 30px;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none; /* Αφαιρεί την υπογράμμιση */
+    border-radius: 50px; /* Το κάνει στρογγυλεμένο */
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2); /* Βάζει μια ελαφριά σκιά */
+    transition: 0.3s; /* Κάνει την αλλαγή ομαλή */
+    margin-top: 20px;
+}
+ 
+.koumpi:hover {
+    background-color: #ff6b81; /* Πιο ανοιχτό χρώμα όταν το ποντίκι είναι από πάνω */
+    transform: scale(1.1); /* Το κουμπί μεγαλώνει ελαφρώς */
+}
+
